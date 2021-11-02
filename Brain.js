@@ -1,15 +1,14 @@
-// This function clear all the values
+// This function will clear all the values
 function clearScreen() {
     document.getElementById("answer").value = "";
 }
 
-
-// This function display values
+// This function will display values
 function display(value) {
     document.getElementById("answer").value += value;
 }
 
-// This function evaluates the expression and return result
+// This function does the expression and return answer
 function calculate() {
     var p = document.getElementById("answer").value;
     var q = eval(p);
